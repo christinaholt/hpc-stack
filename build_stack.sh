@@ -8,6 +8,7 @@
 
 set -eu
 
+source /usr/share/lmod/6.6/init/bash
 # root directory for the repository
 export HPC_STACK_ROOT="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
